@@ -1,0 +1,5 @@
+*.indel
+*.cbs
+*.snp
+*.called
+*.copynumber

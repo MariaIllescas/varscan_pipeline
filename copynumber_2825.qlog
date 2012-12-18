@@ -1,0 +1,24 @@
+========================================
+Starting on : Mon Nov 26 01:52:00 EST 2012
+Running on node : compute-11-12.local
+Current directory : /unprotected/projects/SCNAseq/analysis
+Current job ID : 3406891
+Current job name : copynumber_2825
+Task index number : 
+========================================
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Min coverage:	10
+Min avg qual:	15
+P-value thresh:	0.01
+Input stream not ready, waiting for 5 seconds...
+Input stream not ready, waiting for 5 seconds...
+Reading input from STDIN
+Reading mpileup input...
+665252772 positions in mpileup
+44519282 had sufficient coverage for comparison
+587357 raw copynumber segments with size > 10
+585386 good copynumber segments with depth > 10
+========================================
+Finished on : Mon Nov 26 08:09:47 EST 2012
+========================================

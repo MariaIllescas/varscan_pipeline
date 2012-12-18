@@ -1,0 +1,42 @@
+/home/yfu/.bash_profile: line 17: cowthink: command not found
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+========================================
+Starting on : Mon Nov 26 15:13:45 EST 2012
+Running on node : compute-11-4.local
+Current directory : /unprotected/projects/SCNAseq
+Current job ID : 3407170
+Current job name : cbs_1767
+Task index number : 
+========================================
+========================================
+Finished on : Mon Nov 26 15:13:45 EST 2012
+========================================
+/home/yfu/.bash_profile: line 17: cowthink: command not found
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+========================================
+Starting on : Mon Nov 26 15:17:14 EST 2012
+Running on node : compute-11-4.local
+Current directory : /unprotected/projects/SCNAseq
+Current job ID : 3407171
+Current job name : cbs_1767
+Task index number : 
+========================================
+/home/yfu/.bash_profile: line 17: cowthink: command not found
+stty: standard input: Inappropriate ioctl for device
+========================================
+stty: standard input: Inappropriate ioctl for device
+Finished on : Mon Nov 26 15:17:14 EST 2012
+========================================
+========================================
+Starting on : Mon Nov 26 15:17:14 EST 2012
+Running on node : compute-11-4.local
+Current directory : /unprotected/projects/SCNAseq
+Current job ID : 3407172
+Current job name : cbs_1767
+Task index number : 
+========================================
+========================================
+Finished on : Mon Nov 26 15:17:14 EST 2012
+========================================

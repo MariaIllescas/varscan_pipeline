@@ -1,0 +1,44 @@
+#!bin/bash
+#
+
+#Specify which shell to use
+#$ -S /bin/bash
+
+#Run on the current working folder
+#$ -cwd
+
+#Given this job a name
+#$ -N cbs_2295
+
+#Join standard output and error to a single file
+#$ -j y
+
+# Name the file where to redict standard output and error
+#$ -o cbs_2295.qlog
+
+# Project this job belongs to 
+#$ -P SCNAseq
+
+# Send an email when the job begins and when it ends running
+#$ -m be
+
+# Whom to send the email to
+#$ -M yfu@bu.edu
+
+# Now let's Keep track of some information just in case anything go wrong
+echo "========================================"
+echo "Starting on : $(date)"
+echo "Running on node : $(hostname)"
+echo "Current directory : $(pwd)"
+echo "Current job ID : $JOB_ID"
+echo "Current job name : $JOB_NAME"
+echo "Task index number : $TASK_ID"
+echo "========================================"
+
+cd /unprotected/projects/SCNAseq/analysis
+
+R CMD BATCH cbs2295.R
+
+echo "========================================"
+echo "Finished on : $(date)"
+echo "========================================"

@@ -1,0 +1,44 @@
+ __________________________ 
+( I have Super Cow Powers. )
+ -------------------------- 
+        o   ^__^
+         o  (xx)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+========================================
+Starting on : Sat Nov 24 17:18:14 EST 2012
+Running on node : compute-11-8.local
+Current directory : /unprotected/projects/SCNAseq/analysis
+Current job ID : 3396244
+Current job name : somatic_2295
+Task index number : 
+========================================
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Min coverage:	8x for Normal, 6x for Tumor
+Min reads2:	2
+Min strands2:	1
+Min var freq:	0.2
+Min freq for hom:	0.75
+Normal purity:	1.0
+Tumor purity:	1.0
+Min avg qual:	15
+P-value thresh:	0.99
+Somatic p-value:	0.05
+Input stream not ready, waiting for 5 seconds...
+Reading input from STDIN
+Reading mpileup input...
+0 positions in tumor
+1130638321 positions shared in normal
+73520730 had sufficient coverage for comparison
+73435179 were called Reference
+19 were mixed SNP-indel calls and filtered
+82249 were called Germline
+1013 were called LOH
+2010 were called Somatic
+260 were called Unknown
+0 were called Variant
+========================================
+Finished on : Sat Nov 24 23:44:33 EST 2012
+========================================

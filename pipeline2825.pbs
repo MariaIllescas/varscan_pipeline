@@ -1,0 +1,42 @@
+#!bin/bash
+#
+
+#Specify which shell to use
+#$ -S /bin/bash
+
+#Run on the current working folder
+#$ -cwd
+
+#Given this job a name
+#$ -N p2825pipeline
+
+#Join standard output and error to a single file
+#$ -j y
+
+# Name the file where to redict standard output and error
+#$ -o 2825pipeline.qlog
+
+# Project this job belongs to 
+#$ -P SCNAseq
+
+# Send an email when the job begins and when it ends running
+#$ -m be
+
+# Whom to send the email to
+#$ -M yfu@bu.edu
+
+# Now let's Keep track of some information just in case anything go wrong
+echo "========================================"
+echo "Starting on : $(date)"
+echo "Running on node : $(hostname)"
+echo "Current directory : $(pwd)"
+echo "Current job ID : $JOB_ID"
+echo "Current job name : $JOB_NAME"
+echo "Task index number : $TASK_ID"
+echo "========================================"
+
+sh ./pipeline.sh hg19.fa recal/2825C_recal_final.bam recal/2825_recal_final.bam
+
+echo "========================================"
+echo "Finished on : $(date)"
+echo "========================================"

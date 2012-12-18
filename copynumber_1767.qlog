@@ -1,0 +1,33 @@
+ __________________________ 
+( I have Super Cow Powers. )
+ -------------------------- 
+        o   ^__^
+         o  (xx)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+========================================
+Starting on : Sat Nov 24 16:28:05 EST 2012
+Running on node : compute-12-7.local
+Current directory : /unprotected/projects/SCNAseq/analysis
+Current job ID : 3396228
+Current job name : copynumber_1767
+Task index number : 
+========================================
+Min coverage:	10
+Min avg qual:	15
+P-value thresh:	0.01
+Input stream not ready, waiting for 5 seconds...
+[mpileup] 2 samples in 2 input files
+<mpileup> Set max per-file depth to 4000
+Input stream not ready, waiting for 5 seconds...
+Input stream not ready, waiting for 5 seconds...
+Reading input from STDIN
+Reading mpileup input...
+963254619 positions in mpileup
+61646539 had sufficient coverage for comparison
+747561 raw copynumber segments with size > 10
+745428 good copynumber segments with depth > 10
+========================================
+Finished on : Sat Nov 24 21:55:09 EST 2012
+========================================

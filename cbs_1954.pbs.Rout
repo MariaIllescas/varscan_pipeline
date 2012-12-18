@@ -1,0 +1,52 @@
+
+R version 2.9.2 (2009-08-24)
+Copyright (C) 2009 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> #!bin/bash
+> #
+> 
+> #Specify which shell to use
+> #$ -S /bin/bash
+> 
+> #Run on the current working folder
+> #$ -cwd
+> 
+> #Given this job a name
+> #$ -N cbs_1954
+> 
+> #Join standard output and error to a single file
+> #$ -j y
+> 
+> # Name the file where to redict standard output and error
+> #$ -o cbs_1954.qlog
+> 
+> # Project this job belongs to 
+> #$ -P SCNAseq
+> 
+> # Send an email when the job begins and when it ends running
+> #$ -m be
+> 
+> # Whom to send the email to
+> #$ -M yfu@bu.edu
+> 
+> # Now let's Keep track of some information just in case anything go wrong
+> echo "========================================"
+Error: unexpected string constant in "echo "========================================""
+Execution halted

@@ -1,0 +1,14 @@
+/home/yfu/.bash_profile: line 17: cowthink: command not found
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+========================================
+Starting on : Mon Nov 26 17:04:25 EST 2012
+Running on node : compute-15-8.local
+Current directory : /unprotected/projects/SCNAseq
+Current job ID : 3407323
+Current job name : cbs_2825
+Task index number : 
+========================================
+========================================
+Finished on : Mon Nov 26 17:05:48 EST 2012
+========================================
